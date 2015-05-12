@@ -1,0 +1,38 @@
+[
+    {
+    "name": "Chocolate Roll", 
+    "ingredients": "chocolate, milk, sugar",
+    "image": "http://juliaskitchen.nl/wp-content/uploads/2011/02/chocoladetaart.jpg",
+     "time": "30 min",
+     "method": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti suscipit harum, minus provident vero. Nisi quas provident, impedit rem, quia quos, aperiam error libero dolorem et minima, iure consequatur laborum."
+    },
+    {
+    "name": "Chicken-on-beer-can", 
+    "ingredients": "chick, butter, salt",
+    "image": "http://juliaskitchen.nl/wp-content/uploads/2010/09/kipham.jpg",
+    "time": "1 hour",
+    "method": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum ea labore alias voluptates doloremque corrupti nobis commodi impedit fuga excepturi consequuntur, praesentium, sapiente aliquam error consectetur sequi ducimus delectus possimus."
+    },
+    {
+    "name": "Apple pie", 
+    "ingredients": "Peers, raisins, sugar",
+    "image": "http://juliaskitchen.nl/wp-content/uploads/2010/12/tartfoto.jpg",
+    "time": "50 min",
+    "method": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum ea labore alias voluptates doloremque corrupti nobis commodi impedit fuga excepturi consequuntur, praesentium, sapiente aliquam error consectetur sequi ducimus delectus possimus."
+    },
+    {
+    "name": "Beef Stroganoff", 
+    "ingredients": "Beef, red wine, cream",
+    "image": "http://juliaskitchen.nl/wp-content/uploads/2011/03/mjaso.jpg",
+    "time": "1,5 hours",
+    "method": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum ea labore alias voluptates doloremque corrupti nobis commodi impedit fuga excepturi consequuntur, praesentium, sapiente aliquam error consectetur sequi ducimus delectus possimus."
+    },
+    {
+    "name": "Filet Americain", 
+    "ingredients": "meat, salt, paper",
+    "image": "http://juliaskitchen.nl/wp-content/uploads/2010/12/filetameric.jpg",
+    "time": "20 min",
+    "method": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum ea labore alias voluptates doloremque corrupti nobis commodi impedit fuga excepturi consequuntur, praesentium, sapiente aliquam error consectetur sequi ducimus delectus possimus."
+    }
+
+]

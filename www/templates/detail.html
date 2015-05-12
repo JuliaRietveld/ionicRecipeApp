@@ -1,0 +1,29 @@
+<ion-header-bar class="bar-positive">
+  <h2 class="title">More Info</h2>
+</ion-header-bar>
+
+<ion-view>
+  <ion-content>
+    <ion-list class="list-inset">
+      <ion-item class="item-text-wrap recipeDetail"
+        ng-repeat="item in recipes | filter: { name: whichrecipe }">
+
+             <img ng-src="{{ item.image }}"
+            alt="{{ item.name }} Photo">         
+
+            <h2 class="detail-title">{{ item.name }}</h2>
+            <span class="ingredients"> <i class="ion-wineglass"></i>  {{ item.ingredients }}</span>
+            <p><i class="ion-clock"></i>  {{ item.time }}</p>
+            <p> <i class="ion-hammer"></i>  {{ item.method }}</p>
+            <ul>
+              <li><i class="ion-social-facebook"></i> </li>
+              <li><i class="ion-social-twitter"></i></li>
+              <li><i class="ion-social-youtube"></i></li>
+              <li><i class="ion-social-github"></i></li>
+            </ul>
+         
+          
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>

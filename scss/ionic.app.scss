@@ -1,0 +1,114 @@
+
+/* My colors */
+
+$light:                           #fff !default;
+$green:                           #74AE25 !default;
+$gray:                            #5D6063 !default;
+$dark-green:                      #689D19 !default;
+$blue:                            #003F7E !default;
+$light-gray:                      #EBECEE !default;
+$footer-dark:                     #21241C !default;
+$footer-color:                    #9D9F98 !default;
+$dark:                            #444 !default;
+
+
+// The path for our ionicons font files, relative to the built CSS in www/css
+$ionicons-font-path: "../lib/ionic/fonts" !default;
+
+// Include all of Ionic
+@import "www/lib/ionic/scss/ionic";
+@import url('http://fonts.googleapis.com/css?family=Bree+Serif|Merriweather');
+$font-primary: Merriweather, serif;
+
+
+@mixin linear-gradient($fromColor, $toColor) {
+  background-color: $toColor; /* Fallback Color */
+  background-image: -webkit-gradient(linear, left top, left bottom, from($fromColor), to($toColor)); /* Saf4+, Chrome */
+  background-image: -webkit-linear-gradient(top, $fromColor, $toColor); /* Chrome 10+, Saf5.1+, iOS 5+ */
+  background-image:    -moz-linear-gradient(top, $fromColor, $toColor); /* FF3.6 */
+  background-image:     -ms-linear-gradient(top, $fromColor, $toColor); /* IE10 */
+  background-image:      -o-linear-gradient(top, $fromColor, $toColor); /* Opera 11.10+ */
+  background-image:         linear-gradient(top, $fromColor, $toColor);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#{$fromColor}', EndColorStr='#{$toColor}');
+}
+
+body {
+  cursor: url('http://ionicframework.com/img/finger.png');
+  font-family: $font-primary;
+  font-size: 1.2rem;
+  line-height: 160%;
+}
+
+.star {
+	.item-content {
+		background-color: $footer-dark;
+	}
+}
+
+//Home tab
+.splash {
+	
+	@include linear-gradient(rgba($dark, .8), rgba($gray, 0));
+	background: url("../img/brownie.jpg");
+	//background: url(../img/brownie.jpg) no-repeat center center fixed;
+	background-repeat: no-repeat;
+    background-position: center center;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+
+  .branding {
+	  width: 50%;
+	  max-width: 300px;
+	  margin: 0 auto;
+	  margin-top: 20px;
+	  text-align: center;
+	}
+
+	.tagline {
+	  font-size: 1.4rem;
+	  color: $light;
+	}
+
+	.branding p {
+	  margin-top: 10px;
+	  font-size: 1rem;
+	  color: $light;
+	}
+}
+
+.bar-positive, .tabs-positive>.tabs {
+  background-color: $green !important;
+  border-color:  $green;
+}
+
+// Recipe list
+h2 {
+	color: $blue;
+	font-size: 2.2rem;
+}
+
+//Recipe detail
+
+.recipeDetail {
+	img {
+		width: 100%;
+		height: auto;
+	}
+	h2 {
+		margin: 10px 0 15px;
+		font-size: 2rem;
+		color: $blue;
+	}
+	.ingredients {
+		font-style: italic;
+	}
+	ul {
+		li {
+			display: inline;
+			padding: 10px;
+		}
+	}
+}
+
